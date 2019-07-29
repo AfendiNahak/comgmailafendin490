@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="afendin490.gmail.com.comgmailafendin490">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.NETWORK_PROVIDER" />
+    <uses-permission android:name="android.permission.GPS_PROVIDER" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".InputDataSQL.Main_Input_Data"
+            android:label="@string/title_activity_input_data"/>
+
+        <activity android:name=".InputDataSQL.BuatData"
+            android:label="@string/title_activity_buat_data" />
+
+        <activity android:name=".InputDataSQL.LihatData"
+            android:label="@string/title_activity_lihat_data" />
+
+        <activity android:name=".InputDataSQL.UpdateData"
+            android:label="@string/title_activity_update_data" />
+
+        <activity
+            android:name=".WebService.WebService_Main"
+            android:label="@string/title_activity_web_service" />
+
+        <activity
+            android:name=".Suara.SongPlayer"
+            android:label="@string/title_activity_Suara" />
+
+        <activity
+            android:name=".Kamera.Camera_Layout"
+            android:label="@string/title_activity_kamera" />
+
+        <activity
+            android:name=".GoogleMap.Google_Map"
+            android:label="@string/title_activity_google_map" />
+
+        <activity
+            android:name=".SensorGPS.Sensor_GPSKompas"
+            android:label="@string/title_activity_gps_kompas" />
+
+    </application>
+
+</manifest>

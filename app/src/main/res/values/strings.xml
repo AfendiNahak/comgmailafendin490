@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">com.gmail.afendin490</string>
+    <string name="title_activity_input_data">Data Input SQLite</string>
+    <string name="title_activity_google_map">Google Map</string>
+    <string name="title_activity_gps_kompas">GPS and Kompas</string>
+    <string name="title_activity_kamera">Kamera</string>
+    <string name="title_activity_Suara">Music Player</string>
+    <string name="title_activity_web_service">Kitten Pictures</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_buat_data">Form Input Baru</string>
+    <string name="title_activity_lihat_data">Lihat Data Mahasiswa</string>
+    <string name="title_activity_update_data">Update Data Mahasiswa</string>
+</resources>
